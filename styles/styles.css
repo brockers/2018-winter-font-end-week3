@@ -13,7 +13,7 @@ h1, h2 {
 p {
     color: #333;
 }
-img {
+p img {
     width: 240px;
     margin: 12px;
 }
@@ -27,4 +27,20 @@ img {
     content: "";
     display: block;
     clear: both;
+}
+.columns p {
+    /* width: 33%; */
+    padding: 6px;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery img {
+    width: 180px;
 }
